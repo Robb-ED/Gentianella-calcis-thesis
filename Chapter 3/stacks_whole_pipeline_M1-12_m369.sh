@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Absolute path to the stacks 2 protocol directory
-work=~/Veronica/mt_white/island_test/samples/trimmomatic
+# Path to working directory
+work=WORKING DIRECTORY GOES HERE
 
 # Parameter end points
 ENDM=12
@@ -19,7 +19,7 @@ do
     # Move into the new directory
     cd $out
         # Stacks command
-        denovo_map.pl --samples $work --popmap $work/scripts/popmap.tsv \
+        denovo_map.pl --samples $work --popmap $work/popmap.tsv \
             --out-path $out \
             --paired \
             -M $M \
