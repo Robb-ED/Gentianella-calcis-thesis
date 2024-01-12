@@ -1,14 +1,10 @@
 #!/bin/sh
-##############################################################################
-# Scripts for processing tara iti and Australian fairy tern nova-seq samples
-# recieved 12th April 2021.
-## NOTE: All fairy tern samples have a double peak in their fastqc GC curves.
-##############################################################################
 
-# First began with 2 colour chemistry specific trimmming.
+#Set paths
 raw=~/Gentianella/whole_data/SRA_Sequence/
 trim_out=~/Gentianella/whole_data/SRA_Sequence/trimmed_100BP/
 
+#Do the trimming!
 for samp in ${raw}*1.fastq.gz
 do
 base=$(basename ${samp} .1.fastq.gz)
