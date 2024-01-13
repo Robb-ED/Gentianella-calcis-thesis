@@ -3,6 +3,7 @@ library(vcfR)
 library(adegenet)
 library(StAMPP)
 library(reshape2)
+library(ggplot2)
 
 setwd("~/R/R_stuff/Gentianella/Gentianella_project/Whole_Data/50_20miss_norep")
 
