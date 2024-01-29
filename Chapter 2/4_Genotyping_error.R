@@ -12,6 +12,7 @@ popdata <- read.table("popmap_southcant_reps.txt", header = T)
 
 ###This is a slightly modified version of the code from
 #https://github.com/AliciaMstt/RAD-error-rates/blob/master/LociAllele_error.R
+#Modifications mainly include the removal of calculation of allele error, and changing the grep command so it can look for replicates with our naming scheme
 
 SNP_error <- function(mat, param){ 
   liSNPs = mat
