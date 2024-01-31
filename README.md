@@ -2,7 +2,7 @@
 
 Presented here are used for formal data analysis and processing in Chapters 2 and 3 of my Master's thesis. In each directory I have provided a brief overview of the chapter contents, and details about any tools used (when necessary). To ensure anonymity of landowners and sampling sites, any sample IDs or metadata have been removed from these scripts.
 
-## Chapter 2: _Chapter 2:	Genotyping-By-Sequencing Reveals High Population Structure in a Group of Threatened Plants from New Zealand Limestone Ecosystems_
+## Chapter 2: _Genotyping-By-Sequencing Reveals High Population Structure in a Group of Threatened Plants from New Zealand Limestone Ecosystems_
 SNPs from Genotyping-By-Sequencing data processed by the Elshire Group were used to explore patterns of genetic diversity and population connectivity in _Gentianella calcis_ and _G. astonii_ populations. [DiscoSNP-RAD](https://github.com/GATB/DiscoSnp) was used for SNP discovery.
 
 ## Chapter 3: _Stacks of SNPs at the disco: Comparing Two SNP Discovery Approaches Using_ Gentianella calcis _Genetic Data_  
