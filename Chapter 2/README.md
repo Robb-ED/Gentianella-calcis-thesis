@@ -11,4 +11,4 @@ Once filtered, initial analyses that didn't need prior population assignment (e.
 Various approaches were then used to explore patterns of genetic diversity and population connectivity in the SNP data. 
 
 ## 5: *TreeMix* for *OptM*
-This script randomly subsamples data from the *TreeMix* input file created previously to create new input files that contain random 80% subsets of the original. These are then used to run *TreeMix*. This process allows the calculation of the optimal number of migration edges in *OptM*.  
+This script randomly subsamples data from the *TreeMix* input file created previously to create new input files that contain random 80% subsets of the original. These were then used to run [TreeMix](https://bitbucket.org/nygcresearch/treemix/wiki/Home). Once complete, these output files were zipped and used to calculate the optimal number of migration edges in [OptM](https://rfitak.shinyapps.io/OptM/).  
