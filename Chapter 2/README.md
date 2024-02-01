@@ -12,3 +12,6 @@ Various approaches were then used to explore patterns of genetic diversity and p
 
 ## 5: *TreeMix* for *OptM*
 This script randomly subsamples data from the *TreeMix* input file created previously to create new input files that contain random 80% subsets of the original. These were then used to run [TreeMix](https://bitbucket.org/nygcresearch/treemix/wiki/Home). Once complete, these output files were zipped and used to calculate the optimal number of migration edges in [OptM](https://rfitak.shinyapps.io/OptM/).  
+
+## 6: *TreeMix*
+Once the optimal number of migration edges had been calculated, TreeMix was re-run for migration edges 1-10 using 100% of the SNP data. Visualisation was completed in R using the R scripts provided with TreeMix.
