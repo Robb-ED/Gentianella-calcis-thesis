@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Note: These outputs were only used to estimate the optimal number of migration edges and not for the final run of TreeMix and visualisation.
+
 for m in $(seq 1 10) 
 do
     for i in $(seq 1 10) 
