@@ -1,4 +1,4 @@
-# This is a future readme file for chapter 2
+# _Genotyping-By-Sequencing Reveals High Population Structure in a Group of Threatened Plants from New Zealand Limestone Ecosystems_
 Here are the methods I used to explore patterns of population genetic diversity and connectivity in all sampled _Gentianella calcis_ and _G. astonii_ populations. 
 
 ## 1 & 2: Preparation for SNP filtering
