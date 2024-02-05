@@ -1,4 +1,4 @@
-# Chapter 3: Stacks of SNPs at the disco: Comparing two SNP discovery approaches using _G. calcis_ genetic data
+# Chapter 3: _Stacks of SNPs at the disco: Comparing Two SNP Discovery Approaches Using_ Gentianella calcis _Genetic Data_
 
 Here are the data processing methods I used for SNP discovery in "South Canterbury" _G. calcis_ samples using Stacks. Demultiplexing, adapter removal and cutside trimming was performed by the Elshire Group using their standard approaches.
 
